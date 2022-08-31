@@ -1,0 +1,31 @@
+
+<html>
+<head>
+  <style>
+  table {
+    margin:auto;
+  }
+  td {
+    border: 1px solid black;
+  }
+  </style>
+</head>
+<body>
+  <table>
+     <tr> 
+		<td id="td00" onclick="cliccato(0,0)" > <img  id="imm00" src="mela.png" /> </td> 
+		<td id="td01" onclick="cliccato(0,1)"> <img  id="imm01" src="anguria.png" /> </td> 
+	 </tr>
+	 <tr> 
+		<td id="td10" onclick="cliccato(1,0)"> <img id="imm10" src="mela.png" /> </td>  
+		<td id="td11" onclick="cliccato(1,1)"> <img id="imm11" src="mela.png" /></td> 
+	  </tr>
+  </table>
+  <script>
+    function cliccato(riga,col) {
+	  alert("hai cliccato sulla cella: " + riga + "," + col );
+	  document.getElementById("td"+riga+""+col).style.borderColor="red";
+	}
+  </script>
+</body>
+</html>

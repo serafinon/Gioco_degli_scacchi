@@ -1,0 +1,73 @@
+body{
+	background-color: rgb(255, 206, 158);
+	font-family: arial;
+}
+#stats{
+				width:300px;
+				position: absolute;
+}
+
+#content{
+					width: 674px;
+					margin: 0 auto;
+}
+
+#tabella{
+		border: solid rgb(104, 68, 33) 60px;
+		box-shadow: 1px 1px 0px rgb(61, 40, 19),
+								2px 2px 0px rgb(61, 40, 19),
+								3px 3px 0px rgb(61, 40, 19),
+								4px 4px 0px rgb(61, 40, 19),
+								5px 5px 0px rgb(61, 40, 19),
+								6px 6px 0px rgb(61, 40, 19),
+								7px 7px 0px rgb(61, 40, 19),
+								8px 8px 0px rgb(61, 40, 19),
+								9px 9px 0px rgb(61, 40, 19),
+								10px 10px 0px rgb(61, 40, 19),
+								11px 11px 0px rgb(61, 40, 19),
+								12px 12px 0px rgb(61, 40, 19),
+								13px 13px 0px rgb(61, 40, 19),
+								14px 14px 0px rgb(61, 40, 19),
+								15px 15px 0px rgb(61, 40, 19);
+}
+
+
+table {
+  border-collapse: collapse;
+
+}
+td{border: solid black 2px;}
+
+
+.arancione{
+			
+			background-color: rgb(255, 206, 158);
+			width:70px;
+			height:70px;}
+.marrone{
+			background-color: rgb(210,140,70);
+			width:70px;
+			height:70px;}
+.selezionato{
+			background-color: rgb(51,173,255);
+			width:70px;
+			height:70px;
+}
+.vintobg{background-image: url("imm/bg_vittoria.gif");
+		background-size: cover;}
+#vintoscreen{
+		position:absolute;
+		top:200px;
+		left:170px;
+		width:1000inch;
+		font-size:80pt;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		color:white;
+	}
+	
+#eaten_n{
+	position:absolute;
+	top:10px;
+	left:80%;
+}
+
